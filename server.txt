@@ -1,0 +1,16 @@
+Environmental Variables
+
+const app = require('http')
+    .createServer((req, res) => res.send('hi there!));
+
+const PORT = process.env.PORT
+app.listen(PORT, () => {
+    console.log(`Server is listening on port ${PORT}`);   USING BACK TICKS
+});
+
+console.log(PORT)
+
+//
+PORT=3000 node server.js
+will return
+Server is listening on port 3000

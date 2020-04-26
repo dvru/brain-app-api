@@ -1,0 +1,28 @@
+{
+  "name": "brain-app-api",
+  "homepage": "https://dvru.github.io/brain-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.19.0",
+    "clarifai": "^2.9.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "gh-pages": "^2.2.0",
+    "knex": "^0.21.0",
+    "pg": "^8.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
