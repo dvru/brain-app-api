@@ -30,7 +30,7 @@ app.use(bodyParser.json())
 
 // get root route
 app.get('/', (req, res)=> {
-res.send(database.users);
+res.send('it is working!');
 })
 
 //sign in route
