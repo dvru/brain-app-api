@@ -5,10 +5,10 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "node server.js",
     "build": "react-scripts build",
     "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "author": "",
   "license": "ISC",
