@@ -10,7 +10,6 @@
   },
   "scripts": {
     "start": "node server.js",
-    "start:dev": "nodemon server.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
