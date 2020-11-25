@@ -5,6 +5,4 @@ A web app that detects the human face present in the image built using React, Cl
 ## Links
 - [LIVE DEMO](https://brain--app.herokuapp.com)
 
-## Preview
-![Preview](BrainApp.png)
 
